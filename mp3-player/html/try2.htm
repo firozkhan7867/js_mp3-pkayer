@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mp3 Player (firozkhan__coding)</title>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/try2.css">
+</head>
+
+<body>
+    <img src="../src/ui1.jpg" alt="back ground" id="bg">
+    <img src="../src/—Pngtree—music player media icon_3649121.png" id="bg-img" alt="img" height="100vh">
+    <div id="login-container">
+        <div id="marqu">
+            <img src="../src/download.jpg" alt="img">
+            <h3>
+                <marquee id="mark" behavior="scroll" direction="left">Song Name</marquee>
+            </h3>
+            <audio id="audio" src="../src/AAP+SE+MAUSIIQUII+Title+Song+(Full+Video)+Himesh+Reshammiya+Latest+Song++2016++T-Series(128k).mp3" preload controls></audio>
+        </div>
+        <div class="button">
+            <button id="previous" class="btn btn-default" onclick="previous()">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-left-circle-fill" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.646 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L6.207 7.5H11a.5.5 0 0 1 0 1H6.207l2.147 2.146z" />
+                </svg>
+            </button>
+            <button id="play" class="btn btn-default" onclick="playing()">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-right-square" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                    <path fill-rule="evenodd"
+                        d="M5.795 12.456A.5.5 0 0 1 5.5 12V4a.5.5 0 0 1 .832-.374l4.5 4a.5.5 0 0 1 0 .748l-4.5 4a.5.5 0 0 1-.537.082z" />
+                </svg>
+            </button>
+            <button id="next" class="btn btn-default" onclick="next()">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-circle-fill" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-8.354 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L9.793 7.5H5a.5.5 0 0 0 0 1h4.793l-2.147 2.146z" />
+                </svg>
+            </button>
+        </div>
+
+        <!-- <div class="profile-img"></div> -->
+        <!-- <h1>
+            Maddie
+        </h1> -->
+        <!-- <div class="description">
+            Maddie is a front end web developer in New York. She has worked in the field for 10 years now. Check out her projects in the links below. She is available for hire as well.
+        </div> -->
+        <!-- <div class="social">
+            <a>GitHub</a>
+            <a>Twitter</a>
+            <a>LinkedIn</a>
+        </div> -->
+        <!-- <button>Hire Me</button> -->
+    </div>
+    <footer class="end">
+        <div class="col-12 social padding" style="font-size: 30px;margin:0 50px;">
+            <a href="https://www.facebook.com/profile.php?id=100012853689675" class="fab fa-facebook mf" style="color: blue;"></a>
+            <!-- <a href="#" class="fab fa-twitter"></a> -->
+            <a href="#" class="fab fa-google-plus-g" style="color: red;"></a>
+            <a href="#" class="fab fa-instagram mf" style="color: #3f729b;"></a>
+            <!-- <a href="#" class="fab fa-youtube" style="color: red;"></a> -->
+        </div>
+        <hr class="light">
+        <div class="col-12 color">
+            <h5>&copy;<a id="b" target="_blank" href="https://github.com/firozkhan7867">https://github.com/firozkhan</a></h5>
+        </div>
+    </footer>
+
+
+
+    <!-- script -->
+    <script src="../js/f3.js"></script>
+</body>
+
+</html>
